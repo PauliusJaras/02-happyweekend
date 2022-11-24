@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+:root{
+    --main-color: #3f4371;
+}
+
 body{
     display:flex;
     flex-direction: column;
@@ -7,7 +11,7 @@ body{
     align-items: center;
     height: 100vh;
     font-family: 'Bebas Neue', sans-serif;
-    color: #3f4371;
+    color: var(--main-color);
     margin: 0;
 }
 
@@ -25,12 +29,12 @@ header{
 a{
     text-decoration: none;
     margin: 50px;
-    color: #3f4371;
+    color: var(--main-color);
     font-size: 1.5em;
 }
 
 nav>a:hover{
-    border: 2px solid #3f4371;
+    border: 2px solid var(--main-color);
     border-radius: 8px;
     padding: 4px 30px;
 }
@@ -72,7 +76,7 @@ p{
 .btn{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    background-color: #3f4371;
+    background-color: var(--main-color);
     color: white;
     padding: 10px 50px;
     border-radius: 5px;

@@ -29,7 +29,7 @@ a{
     font-size: 1.5em;
 }
 
-#current-page{
+nav>a:hover{
     border: 2px solid #3f4371;
     border-radius: 8px;
     padding: 4px 30px;
